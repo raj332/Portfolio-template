@@ -80,7 +80,7 @@
               <br>  Looking for Internship to improve my skills , fix weaknesses  and contribute in organization's growth.
             </span><br>
             <a href="#contactform"> <button id="hirebtn">Hire Me</button></a>
-            <button id="mebtn">My World</button>
+            <a href="me.html" target="_blank"><button id="mebtn">My World</button></a>
         </div>
 
     </div>
@@ -139,9 +139,7 @@
 </body>
 <script>
     var temp;
-    $("#mebtn").click(function() {
-        window.open('me.html', '_blank')
-    });
+   
 
     $("#name").blur(function() {
         if (!(/^([a-zA-Z\s]{3,})$/.test($("#name").val()))) {
