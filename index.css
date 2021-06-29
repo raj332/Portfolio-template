@@ -42,7 +42,7 @@ li>a:hover {
 }
 
 #poster {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("pics/poster.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pics/poster.jpg");
     display: flex;
     background-size: cover;
     background-position: center;
@@ -233,7 +233,7 @@ li>a:hover {
 #mebtn:hover,
 #hirebtn:hover {
     background-color: rgba(128, 255, 0, 0.612);
-    box-shadow: 0px 0px 1rem #5dbb2e;
+    box-shadow: 0px 0px 2rem #5dbb2e;
 }
 
 #contactcard {
@@ -281,7 +281,7 @@ li>a:hover {
 #contactno:focus,
 #message:focus {
     background-color: rgba(35, 35, 35, 0.374);
-    box-shadow: 0px 0px 2rem rgb(105, 103, 103);
+    box-shadow: 0px 0px 3rem rgb(105, 103, 103);
     color: white;
 }
 
@@ -296,7 +296,7 @@ li>a:hover {
     border-radius: 100%;
     margin: 1rem;
     box-sizing: border-box;
-    box-shadow: 0 0px 2rem rgb(83 83 83);
+    box-shadow: 0 0px 2.5rem rgb(83 83 83);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: .5s;
 }
@@ -305,7 +305,7 @@ li>a:hover {
 #facebook:hover,
 #linkedin:hover,
 #whatsapp:hover {
-    box-shadow: 0px 0px 0.8rem #73eb36;
+    box-shadow: 0px 0px 1.5rem #73eb36;
 }
 
 #instagram {
@@ -387,6 +387,7 @@ li>a:hover {
     }
     #profile>#pic {
         width: 80%;
+        height:30rem;
     }
     #profile>#text {
         width: 80%;
