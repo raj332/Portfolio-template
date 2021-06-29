@@ -51,9 +51,7 @@ li>a:hover {
     width: 100%;
 }
 
-#cap {
-    margin-top: 0rem;
-}
+
 
 #upper {
     font-family: times;
@@ -349,7 +347,7 @@ li>a:hover {
         font-size: 100%;
     }
     #cap {
-        margin-top: 22rem;
+        margin-top: 25rem;
     }
 }
 
