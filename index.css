@@ -361,8 +361,15 @@ li>a:hover {
 }
 
 @media(max-width:760px) {
+   
     html {
         font-size: 55%;
+    }
+    #top
+    {
+        justify-content: space-around;
+        padding-right: 0;
+        padding-left: 0;
     }
     #poster {
         height: 70%;
