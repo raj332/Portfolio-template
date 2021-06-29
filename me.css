@@ -88,10 +88,14 @@
        html {
            font-size: 57%;
        }
+      body
+      { background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pics/w4.jpg");
+      }
        .items {
            margin-left: 12%;
            margin-right: 12%;
        }
+     
    }
    
    @media(max-width:1180px) {
