@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="me.css">
+    <script src="jq/jquery.js"></script>
+    <script src="me.js"></script>
+    <title>
+        MY Gallary
+    </title>
+
+</head>
+
+<body>
+    <div id="title1"><a href="index.html">Back</a></div>
+    <center class="titles">
+        Gallery
+    </center>
+    <div id="gallery">
+        <div class="items">
+            <a href="pics/1.jpeg" target="_blank"><img src="pics/1.jpeg"></a>
+            <div class="dis">Enjoyment with friends🤩. </div>
+        </div>
+        <div class="items">
+            <a href="pics/2.jpg" target="_blank"><img src="pics/2.jpg"></a>
+            <div class="dis">New Clg New Friends. Suite day pic.💖</div>
+        </div>
+        <div class="items">
+            <a href="pics/3.jpg" target="_blank"><img src="pics/3.jpg"></a>
+            <div class="dis">Bench Partners to Best Buddies😎.</div>
+        </div>
+        <div class="items">
+            <a href="pics/4.jpg" target="_blank"><img src="pics/4.jpg"></a>
+            <div class="dis">Here is the real peace Location😍.</div>
+        </div>
+        <div class="items">
+            <a href="pics/5.jpg" target="_blank"><img src="pics/5.jpg"></a>
+            <div class="dis">What makes you diffrent,Makes you Beautiful✨</div>
+        </div>
+        <div class="items">
+            <a href="pics/6.jpg" target="_blank"><img src="pics/6.jpg"></a>
+            <div class="dis">😅Pic with Jerry the mech guy.</div>
+        </div>
+        <div class="items">
+            <a href="pics/7.jpg" target="_blank"><img src="pics/7.jpg"></a>
+            <div class="dis">Last Reunion Of school friends🤩</div>
+        </div>
+        <div class="items">
+            <a href="pics/8.jpg" target="_blank"><img src="pics/8.jpg"></a>
+            <div class="dis">Brothers👨🏽‍🤝‍👨🏼</div>
+        </div>
+        <div class="items">
+            <a href="pics/9.jpg" target="_blank"><img src="pics/9.jpg"></a>
+            <div class="dis">😍Dream🤩🌟</div>
+        </div>
+    </div>
+</body>
+<script src="jq/jquery.js"></script>
+<script>
+    this.$(".items").mouseover(function() {
+        $(this).children('.dis').css({
+
+            'bottom': '0px'
+
+        });
+        $(this).css({
+            'box-shadow': '0px 0px 10px white'
+        })
+    });
+    this.$(".items").mouseleave(function() {
+        $(this).children(".dis").css({
+            'bottom': '-20px'
+
+        })
+        $(this).css({
+            'box-shadow': ' 0px 0px 3px rgba(255, 255, 255, 0.884)'
+        })
+    });
+</script>
+
+</html>

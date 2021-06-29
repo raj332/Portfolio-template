@@ -1,0 +1,265 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+
+
+    <title>Raj's Portfolio</title>
+
+</head>
+
+<body>
+
+    <ul id="top">
+        <li><a href="#poster">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#resume">RESUME</a></li>
+        <li><a href="#profile">ABOUT</a></li>
+        <li><a href="#contactcard">CONTACT</a></li>
+    </ul>
+    </div>
+    <div id="poster">
+        <div id="cap">
+
+            <font id="upper"> Hello, I am </font><br>
+            <font id="middle"> Raj Patel </font><br><br>
+            <font id="lower"> AND THIS IS MY RESUME.</font>
+        </div>
+    </div>
+    <div id="portfolio">
+        <center class="titles">My Portfolio</center>
+        <div class="container">
+
+            <a href="https://raj332.github.io/arterra.github.io/">
+                <div class="box2" id="b1">
+                    <u> Arterra</u>
+                </div>
+            </a>
+            <a href="https://raj332.github.io/ttt/">
+                <div class="box2" id="b2">
+                    <u>Tic-Tac-Toe Game</u>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="resume">
+        <center class="titles">My Resume</center>
+        <div class="titleb">Education</div>
+        <div class="container">
+
+
+
+
+            <div class="box">
+
+                <div class="a">May,2019</div><br>
+                <div class="b">High School education </div> <br>
+                <div class="c">SHRI JAWAHAR VIDHYALAYA,SANIYA,SURAT.</div>
+            </div>
+
+
+            <div class="box">
+                <div class="a">June,2021</div><br>
+                <div class="b">BSC I.T.(3rd Year)</div> <br>
+                <div class="c">JP DAWER INSTITUTE OF INFO. & TECH , VNSGU UNIVERSITY.</div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="profile">
+        <div id="pic">
+
+        </div>
+        <div id="text">
+            <span id="title1">About Me</span> <br> <br><span id="a">Passionate IT Student with Good Management and Problem solving Skills.
+              <br><br>  Strong at Javascript , CSS , Html , C++ , C and VB.NET .
+              Weak at public speaking .
+                Extremly intrested in Programming ,Financial Books , Trading and Travel.
+              <br>  Looking for Internship to improve my skills , fix weaknesses  and contribute in organization's growth.
+            </span><br>
+            <a href="#contactform"> <button id="hirebtn">Hire Me</button></a>
+            <button id="mebtn">My World</button>
+        </div>
+
+    </div>
+    <center class="titles">Get In Touch</center>
+    <div id="contactcard">
+
+        <form id="contactform" action="https://formsubmit.co/cpr19846@gmail.com" method="POST">
+            <div class="titlec">Feedback | Query</div>
+            <input type="text" id="name" placeholder="* Your Name" name="Name" required><br>
+            <input type="email" id="email" placeholder="* Your Email-Id" name="Email" required><br>
+            <input type="tel" id="contactno" placeholder=" Your PhoneNo" name="Mobileno"><br>
+            <textarea id="message" placeholder="* Write Message Or Review" name="Message" rows="10" required></textarea><br>
+            <input value="Send Message" id="sendbtn" name="Submitbtn" type="submit">
+
+
+        </form>
+        <div id="mycontact">
+            <div class="titlec">My Contact Detail</div>
+            <br><span class="e">EMAIL</span>
+            <br> <span class="d">cpr332211@gmail.com</span>
+            <br><br> <span class="e">PHONE</span>
+            <br> <span class="d">+91-9724140616</span>
+            <br><br> <span class="e">ADDRESS</span>
+            <br> <span class="d">JP DAWER INSTITUTE ,VNSGU, SURAT</span>
+
+
+        </div>
+
+    </div>
+
+    <div id="logos">
+        <a href="http://instagram.com/_u/3.rajpatel/" target="_blank">
+            <div id="instagram"></div>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100015717935381" target="_blank">
+            <div id="facebook"></div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/raj-patel-06560b1a4/" target="_blank">
+            <div id="linkedin"></div>
+        </a>
+
+        <a href="https://wa.me/9724140616" target="_blank">
+            <div id="whatsapp"></div>
+        </a>
+
+    </div>
+    <div id="copyright"> Copyright © 2021 All rights reserved. | This site is made with
+        <font color="red">❤</font> by
+        <font color="lightgreen">Raj Patel.</font>
+    </div>
+
+
+
+
+</body>
+<script>
+    var temp;
+    $("#mebtn").click(function() {
+        window.open('me.html', '_blank')
+    });
+
+    $("#name").blur(function() {
+        if (!(/^([a-zA-Z\s]{3,})$/.test($("#name").val()))) {
+            if ($("#name").val() == "") {
+                $("#name").css({
+                    'border': '1px solid black'
+                })
+                $("#name").attr("placeholder", "Your Name")
+            } else {
+
+                $("#name").val("");
+                $("#name").css({
+                    'border': '1px solid red'
+                })
+                $("#name").attr("placeholder", "Invailid Name !")
+            }
+
+
+
+        } else {
+
+            $("#name").attr("placeholder", "")
+            $("#name").css({
+                'border': '1px solid black'
+            })
+
+        }
+    });
+    $("#email").blur(function() {
+        if (!(/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/).test($("#email").val())) {
+            if ($("#email").val() == "") {
+                $("#email").css({
+                    'border': '1px solid black'
+                })
+                $("#email").attr("placeholder", "Your Email Id")
+            } else {
+                $("#email").val("");
+                $("#email").css({
+                    'border': '1px solid red'
+                })
+                $("#email").attr("placeholder", "Invailid Email-Id")
+
+            }
+        } else {
+
+            $("#email").attr("placeholder", "")
+            $("#email").css({
+                'border': '1px solid black'
+            })
+        }
+    });
+    $("#contactno").blur(function() {
+        if (!(/^(\+\d{1,3}[- ]?)?\d{10}$/).test($("#contactno").val())) {
+
+            if ($("#contactno").val() == "") {
+                $("#contactno").css({
+                    'border': '1px solid black'
+                })
+
+                $("#contactno").attr("placeholder", "Your PhoneNo");
+            } else {
+
+
+
+                $("#contactno").val("");
+                $("#contactno").css({
+                    'border': '1px solid red'
+                })
+                $("#contactno").attr("placeholder", "Invailid contactno");
+            }
+
+        } else {
+
+            $("#contactno").attr("placeholder", "")
+            $("#contactno").css({
+                'border': '1px solid black'
+            })
+        }
+    });
+
+    $("#message").blur(function() {
+        if ($("#message").val() != "") {
+            $("#message").css({
+                'border': '1px solid black'
+            })
+            $("#message").attr("placeholder", "* Write Message Or Review");
+        }
+    });
+    $("#sendbtn").click(function() {
+        var flag = 1;
+        if ($("#name").val() == "") {
+
+            $("#name").attr("placeholder", "Please,Enter your Name!")
+            $("#name").css({
+                'border': '1px solid red'
+            })
+            flag = 0;
+        }
+        if ($("#email").val() == "") {
+            $("#email").css({
+                'border': '1px solid red'
+            })
+            $("#email").attr("placeholder", "Please,Enter your mailid!")
+            flag = 0;
+        }
+        if ($("#message").val() == "") {
+            $("#message").css({
+                'border': '1px solid red'
+            })
+            $("#message").attr("placeholder", "Please ,Enter Message !!")
+            flag = 0;
+
+        }
+        if (flag == 1) {
+            alert("Thank You For Feedback.");
+        }
+
+    });
+</script>
+
+</html>

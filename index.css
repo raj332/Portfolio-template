@@ -1,0 +1,369 @@
+body {
+    background-color: rgba(0, 0, 0, 0.98);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    position: fixed;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 0;
+    background-position: top;
+    font-family: verdana;
+}
+
+#top>li {
+    padding: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+
+li>a:hover {
+    color: crimson;
+}
+
+#poster {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("pics/poster.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+#cap {
+    margin-top: 170px;
+}
+
+#upper {
+    font-family: times;
+    font-size: 30px;
+    color: rgba(248, 248, 248, 0.653);
+}
+
+#middle {
+    color: rgba(253, 253, 253, 0.775);
+    font-size: 40px;
+    font-family: verdana;
+    font-weight: 700;
+}
+
+#lower {
+    color: rgba(255, 255, 255, 0.442);
+    font-family: tahoma;
+    font-size: 9px;
+    font-weight: 50;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a {
+    font-size: 7px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+.b {
+    font-size: 10px;
+    color: rgba(102, 150, 19, 0.857);
+    font-family: verdana;
+}
+
+.c {
+    font-family: verdana;
+    font-size: 12px;
+    color: rgba(240, 255, 255, 0.3);
+}
+
+.d {
+    font-family: verdana;
+    font-size: 10px;
+    color: rgba(240, 255, 255, 0.3);
+}
+
+.e {
+    font-size: 8px;
+    color: rgba(102, 150, 19, 0.857);
+    font-family: tahoma;
+}
+
+.container>a {
+    text-decoration: none;
+}
+
+.titles {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.titleb {
+    font-size: small;
+    color: rgba(240, 255, 255, 0.6);
+    margin-left: 13%;
+    margin-bottom: 10px;
+    font-family: tahoma;
+}
+
+.titlec {
+    font-size: small;
+    color: rgba(240, 255, 255, 0.6);
+    margin-bottom: 10px;
+    font-family: tahoma;
+}
+
+.box {
+    height: 90px;
+    width: 250px;
+    margin: 10px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 6px;
+    color: white;
+    padding: 15px;
+}
+
+.box2 {
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    font-family: verdana;
+}
+
+#b1 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("pics/arterra.jpg");
+    background-size: cover;
+}
+
+#b2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("pics/tictactoe.jpg");
+    background-size: cover;
+}
+
+#b1:hover {
+    box-shadow: 0px 0px 10px #e01f76a3;
+}
+
+#b2:hover {
+    box-shadow: 0px 0px 10px #f8c25ed2;
+}
+
+#profile {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#profile>#pic {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-image: url("pics/profile.JPG");
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+
+#text {
+    max-height: 200px;
+    height: 170px;
+    width: 250px;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+
+#text>#title1 {
+    font-size: 20px;
+    color: azure;
+}
+
+#text>#a {
+    font-size: 10px;
+    color: rgba(240, 255, 255, 0.36);
+    font-family: verdana;
+}
+
+#sendbtn,
+#mebtn,
+#hirebtn {
+    background-color: rgba(102, 150, 19, 0.707);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    font-family: verdana;
+}
+
+#sendbtn:hover,
+#mebtn:hover,
+#hirebtn:hover {
+    background-color: rgba(128, 255, 0, 0.612);
+    box-shadow: 0px 0px 5px #5dbb2e;
+}
+
+#contactcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contactform {
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#mycontact {
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#name,
+#email,
+#contactno,
+#message {
+    background-color: rgb(35, 35, 35);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 10px;
+    color: rgba(240, 255, 255, 0.428);
+    font-size: 8px;
+    padding: 8px;
+    border: 0;
+    width: 100%;
+    font-family: verdana;
+}
+
+#message {
+    overflow: hidden;
+    resize: none;
+}
+
+#name:focus,
+#email:focus,
+#contactno:focus,
+#message:focus {
+    background-color: rgba(35, 35, 35, 0.374);
+    box-shadow: 0px 0px 15px rgb(105, 103, 103);
+    color: white;
+}
+
+#instagram,
+#facebook,
+#linkedin,
+#whatsapp {
+    height: 30px;
+    width: 30px;
+    background-color: burlywood;
+    border: 0;
+    border-radius: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0px 10px rgb(83, 83, 83);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+}
+
+#instagram:hover,
+#facebook:hover,
+#linkedin:hover,
+#whatsapp:hover {
+    box-shadow: 0px 0px 4px #73eb36;
+}
+
+#instagram {
+    background-image: url("pics/instagram.gif");
+    background-size: cover;
+}
+
+#facebook {
+    background-image: url("pics/facebook.gif");
+    background-size: cover;
+}
+
+#linkedin {
+    background-image: url("pics/Linkedin.gif");
+    background-size: cover;
+}
+
+#whatsapp {
+    background-image: url("pics/whatsapp.gif");
+    background-size: cover;
+}
+
+#logos {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.292);
+    font-size: 10px;
+    margin: 30px;
+    font-family: verdana;
+}
+
+@media(max-width:450px) {
+    #top {
+        width: 100%;
+        justify-content: space-around;
+        font-size: 11px;
+    }
+    #top>li {
+        margin: 0;
+    }
+    .box2 {
+        width: 85vw;
+    }
+    .box,
+    #mycontact,
+    #contactform {
+        width: 80%;
+    }
+    #profile>#pic {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+    #profile>#text {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .titleb {
+        text-align: center;
+        margin-left: 0;
+    }
+}
