@@ -100,6 +100,9 @@
            margin-left: 12%;
            margin-right: 12%;
        }
+       .dis {
+          transition:none;
+       }
      
    }
    
@@ -113,8 +116,5 @@
        html {
            font-size: 100%;
        }
-       .dis {
-          transition:none;
-           bottom: -5rem;
-       }
+      
    }
