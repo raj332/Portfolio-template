@@ -114,6 +114,7 @@
            font-size: 100%;
        }
        .dis {
+          transition:none;
            bottom: -5rem;
        }
    }
